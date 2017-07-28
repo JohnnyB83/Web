@@ -1,0 +1,57 @@
+body {
+	background-color: #232323;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Electrolize";
+	user-select: none;
+	color: white;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+#text {
+	border: 2px solid white;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+#p1score {
+	transition: all 1s;
+}
+
+#p2score {
+	transition: all 1s;
+}
+
+#log {
+	text-align: center;
+	margin-top: 40px;
+}
+
+input {
+	max-width: 40px;
+	color: black;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	font-size: 600%;
+}
+
+p {
+	text-align: center;
+	padding: 0 auto;
+}
+
+button {
+	border: none;
+	background: none;
+	transition: all 0.3s;
+}
+
+button:hover {
+	background: white;
+	color: #232323;
+}
